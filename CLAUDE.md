@@ -13,10 +13,15 @@ Personal portfolio site for Marcus (GitHub: therealmarcus-0). Static site built 
 portfolio/
   index.html    — Single-page site with all sections
   style.css     — All styling, responsive design, animations
-  script.js     — Mobile menu, scroll effects, form handling
-  images/       — Photos, screenshots, project assets
+  script.js     — Mobile menu, scroll effects (Intersection Observer fade-ins), form handling
   CLAUDE.md     — This file
 ```
+(No images/ folder yet — create it when adding the About photo and app screenshots.)
+
+## Current gaps (as of Jul 2026)
+- The "Other Projects" cards (finance tracker, golf stats, workout logger) are planned but NOT yet in index.html.
+- The contact form is a placeholder — not wired to Formspree yet; submissions go nowhere.
+- Photo, project screenshots, and GitHub/LinkedIn links are still placeholders.
 
 ## Sections
 1. Hero — Name, tagline, CTA buttons
@@ -37,30 +42,8 @@ Marcus is a high school student at St. Mark's School. Interests: CS, app develop
 
 ## Roadmap
 
-### Phase 1 — Structure (DONE)
-- [x] HTML skeleton with all 6 sections
-- [x] CSS styling, responsive layout, scroll animations
-- [x] JavaScript interactivity (menu, scroll, form, fade-ins)
-- [x] Git repo initialized
-
-### Phase 2 — Personalize & Polish
-- [ ] Add real photo to About section
-- [ ] Add St. Mark's app screenshots
-- [ ] Update placeholder project descriptions and tech stacks
-- [ ] Update GitHub/email/LinkedIn links in Contact section
-- [ ] Update git config (name/email still set to defaults)
-- [ ] Connect contact form to Formspree
-- [ ] Add favicon
-- [ ] Review all text for accuracy
-
-### Phase 3 — Go Live
-- [ ] Create repo `therealmarcus-0.github.io` on GitHub
-- [ ] Push to GitHub
-- [ ] Verify GitHub Pages deployment
-- [ ] Optional: custom domain
-
-### Phase 4 — Ongoing
-- [ ] Add new projects as they're built
-- [ ] Update St. Mark's app section through beta
-- [ ] Add client work to Services section
-- [ ] Blog/writing section (future consideration)
+Phase 1 (structure: HTML/CSS/JS skeleton, all 6 sections, git init) is DONE.
+Remaining, in order:
+1. **Personalize** — real photo, app screenshots, real project descriptions, real GitHub/email/LinkedIn links, Formspree for the contact form, favicon, fix default git config name/email.
+2. **Go live** — create `therealmarcus-0.github.io` repo, push, verify GitHub Pages (optional custom domain).
+3. **Ongoing** — add projects as built, keep the St. Mark's app section current through beta, add client work to Services.
